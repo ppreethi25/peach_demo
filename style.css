@@ -1,0 +1,441 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background: #dbdbdd;
+  width: 100%;
+  height: 100%;
+}
+
+
+.navbar {
+  
+  /* position: fixed; */
+  z-index: 1;
+  width: 100%;
+}
+.nav_container{
+
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 20%;
+  top: 15px;
+  position: relative;
+}
+
+.icon a {
+  color: #000;
+}
+.icon a :hover {
+  background: #8f8888;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-basis: 70%;
+}
+
+/* 
+div#navbarSupportedContent {
+  justify-content: space-evenly;
+} */
+button.navbar-toggler {
+  height: 100%;
+  position: relative;
+  top: 20px;
+  z-index: 2;
+}
+button.navbar-toggler.collapsed {
+  left: 62px;
+  top: 0;
+}
+
+button.navbar-toggler {
+  right: 60px;
+}
+button.navbar-toggler.collapsed {
+  top: 20px;
+  left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+a.nav-link {
+  position: relative;
+  top: 0px;
+}
+ul.navbar-nav {
+  position: relative;
+  /* left: -60px; */
+}
+ul.navbar-nav.mr-auto {
+  display: flex;
+  align-items: flex-start;
+}
+.mr-auto, .mx-auto {
+  margin-right:0; 
+}
+
+li.nav-item {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+
+
+li.nav-item:hover {
+  background: #63565669;
+}
+
+
+.img {
+  background: #f1d15e;
+  border-radius: 0 0 0 15px;
+  width: 140px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.img img {
+  flex-basis: 20%;
+  width: 90px;
+  padding: 6px;
+  position: relative;
+  left: 30px;
+}
+
+
+
+
+.main .row {
+  padding: 20px;
+  margin: 0;
+}
+.main .col-md-12.col-lg-6 {
+  /* width: 100%; */
+  padding: 40px;
+  position: relative;
+}
+
+.text h1 {
+  font-size: 95pt;
+  font-family: 'Bebas Neue', cursive;
+  color: #000000a3;
+  letter-spacing: 25px;
+  font-weight: 200;
+}
+
+
+
+.welcome-text p {
+  /* width: 400px; */
+ 
+  font-size: 13px;
+}
+.welcome-text2 p {
+  font-size: 30px;
+  /* width: 315px; */
+  color: #4f4f509e;
+}
+button.button {
+  background: #eabc30;
+  border: 0px;
+  font-size: 18px;
+  padding: 6px;
+  color: #00000080;
+  border-radius: 13px;
+  width: 150px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+
+a.fa.fa-instagram {
+  top: 0px;
+}
+
+a.fa.fa-facebook{
+  top: 40px;
+}
+
+a.fa.fa-twitter{
+  top: 80px;
+}
+a.fa.fa-whatsapp{
+  top: 120px;
+}
+
+.socialShare {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  top: 300px;
+  right: 100px;
+}
+
+.socialShare .fa {
+  width: 30px;
+  height: 30px;
+  right: 0;
+  position: absolute;
+  background: #00000085;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
+}
+
+span.glyphicon.glyphicon-chevron-right {
+  margin-right: 0px;
+}
+
+
+
+
+
+/* @media only screen and (max-width: 1024px) {
+
+  .text h1{
+    font-size: 60px;
+  }
+  } */
+
+
+
+/* @media (min-width: 768px) and (max-width: 1000px) {
+  .navbar-collapse.collapse {
+       display: none !important;
+   }
+} */
+
+/* 
+@media screen and (max-width: 768px){
+.carousel-control .glyphicon-chevron-right {
+  margin-right: -10px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50%;
+  background: #000;
+  padding: 8px;
+}
+
+
+.carousel-control .glyphicon-chevron-left{
+  margin-right: -10px;
+  width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 8px;
+}
+} */
+
+/* @media screen and (max-width: 425px){
+  .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: 125px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px;
+  }
+  .carousel-control .glyphicon-chevron-left{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px;
+  }
+} */
+
+
+/* 
+@media screen and (max-width: 375px){
+  .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: 75px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px;
+  }
+  .carousel-control .glyphicon-chevron-left{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px;
+  }
+
+} */
+
+
+
+@media only screen and (max-width: 786px) and (min-width: 375px){
+
+img.sr {
+  top: 68px;
+  left: 95px;
+}
+}
+
+@media only screen and (max-width: 786px){
+  .socialShare{
+    top: 215px;
+    right: 0;
+}
+
+.carousel-control .glyphicon-chevron-right {
+  margin-right: -10px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50%;
+  background: #000;
+  padding: 8px;
+}
+.carousel-control .glyphicon-chevron-left{
+  margin-right: -10px;
+  width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 8px;
+}
+
+
+
+}
+@media only screen and (max-width: 425px){
+.socialShare {
+  top: 13pc;
+  right: 0;
+}
+
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+  margin-right: 125px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50%;
+  background: #000;
+  padding: 5px;
+}
+.carousel-control .glyphicon-chevron-left{
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50%;
+  background: #000;
+  padding: 5px;
+}
+
+
+}
+@media only screen and (max-width: 375px){
+  .socialShare{
+    left: 24px;
+    top: 17pc;
+  }
+
+  .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: 75px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px;
+  }
+  .carousel-control .glyphicon-chevron-left{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px;
+  }
+
+
+
+}
+
+  @media only screen and (max-width: 320px){
+    .socialShare{
+      left: 55px;
+      top: 16pc;
+    }
+      .carousel-control .glyphicon-chevron-right {
+        right: 50%;
+        margin-right: 75px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 50%;
+        background: #000;
+        padding: 5px;
+      }
+      .carousel-control .glyphicon-chevron-left{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 50%;
+        background: #000;
+        padding: 5px;
+      }
+
+
+
+
+
+
+    
+  }
